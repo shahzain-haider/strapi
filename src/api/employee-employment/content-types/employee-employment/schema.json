@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_employments",
+  "info": {
+    "singularName": "employee-employment",
+    "pluralName": "employee-employments",
+    "displayName": "employeeEmployment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_departments",
+  "info": {
+    "singularName": "employee-department",
+    "pluralName": "employee-departments",
+    "displayName": "employeeDepartment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

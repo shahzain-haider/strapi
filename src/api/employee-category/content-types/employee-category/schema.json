@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_categories",
+  "info": {
+    "singularName": "employee-category",
+    "pluralName": "employee-categories",
+    "displayName": "employeeCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

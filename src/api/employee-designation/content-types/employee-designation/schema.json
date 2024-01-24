@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_designations",
+  "info": {
+    "singularName": "employee-designation",
+    "pluralName": "employee-designations",
+    "displayName": "employeeDesignation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

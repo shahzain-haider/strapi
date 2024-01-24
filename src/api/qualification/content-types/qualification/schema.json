@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qualifications",
+  "info": {
+    "singularName": "qualification",
+    "pluralName": "qualifications",
+    "displayName": "Qualification",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "org_id": {
+      "required": true,
+      "type": "integer"
+    },
+    "qualification": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
